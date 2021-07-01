@@ -1,3 +1,10 @@
+/*========================================================
+    Template Name : D'art - v1
+    Author : Aji Santoso
+    Class: Teknik Informatika 2 b
+========================================================*/
+
+
 /*-- scroll --*/
 
 ::-webkit-scrollbar {
@@ -16,137 +23,6 @@
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: #78d0d3;
-}
-
-
-/*--------------------------------------------------------------*/
-
-
-/*-- Layout --*/
-
-* body {
-    overflow-x: hidden;
-    background-image: url('../dist/background.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #f9f9f9;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-
-/*------------------------------------------------------------*/
-
-.home-logo {
-    width: 170px;
-    height: 170px;
-    margin: 0;
-    margin-left: -16px;
-}
-
-.navbar-nav a {
-    color: #f9f9f9;
-    font-weight: bold;
-    font-size: 25px;
-    padding: 0px 20px 0px 20px;
-}
-
-.navbar-nav a:hover,
-a:focus {
-    color: #403d52;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: all 0.5s;
-    box-shadow: inset 6.5em 0 0 0 #78d0d3;
-}
-
-.home-art {
-    height: 450px;
-    width: 600px;
-    margin-left: -15px;
-    margin-top: 30px;
-}
-
-.col-sm-6 h1 {
-    font-size: 35px;
-    color: #403d52;
-    font-weight: 900;
-    margin-top: 100px;
-    margin-left: 90px;
-}
-
-.con-one {
-    height: 823px;
-}
-
-.con-second {
-    background-color: #78d0d3;
-    height: 330px;
-    color: #403d52;
-}
-
-.con-third {
-    height: 540px;
-    background-color: #f9f9f9;
-    color: #403d52;
-}
-
-.con-fourd {
-    color: #403d52;
-    height: 300px;
-}
-
-.con-fifth {
-    background-color: #f9f9f9;
-    color: #403d52;
-}
-
-.con-six {
-    background-color: #3E6CB1;
-    color: #f9f9f9;
-}
-
-.con-seven {
-    background-color: #f9f9f9;
-    color: #403d52;
-}
-
-.col-sm-4 img {
-    height: 110px;
-    margin-bottom: 20px;
-}
-
-.col-sm-6 .list {
-    width: 60px;
-    height: 300px;
-    background-color: #3E6CB1;
-    display: inline-block;
-    margin-bottom: -150px;
-    margin-left: -4px;
-}
-
-.btn {
-    background-color: #3E6CB1;
-    color: #f9f9f9;
-    font-size: 25px;
-    width: 150px;
-    border-radius: 20px;
-}
-
-.col-sm-2 .icon {
-    height: 50px;
-    width: 50px;
-    background-color: #f9f9f9;
-    margin: 10px;
-    margin-left: -5px;
-    margin-bottom: 10px;
-    border-radius: 50%;
-}
-
-.list-group {
-    color: #3E6CB1;
 }
 
 #button {
@@ -189,3 +65,373 @@ a:focus {
     opacity: 1;
     visibility: visible;
 }
+
+
+/*--------------------------------------------------------------*/
+
+
+/*-- Layout --*/
+
+body {
+    overflow-x: hidden;
+}
+
+.bg {
+    background-image: url('../dist/background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #f9f9f9;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*------------------------------------------------------------*/
+
+
+/*-- Home Page --*/
+
+.con-one {
+    height: 823px;
+}
+
+.con-one .col-sm-4 {
+    height: 100px;
+}
+
+.con-one .home-logo {
+    width: 170px;
+    height: 170px;
+    margin: 0;
+    margin-left: -16px;
+}
+
+.con-one .navbar-nav a {
+    color: #f9f9f9;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0px 20px 0px 20px;
+    margin-left: 30px;
+}
+
+.con-one .navbar-nav a:hover,
+a:focus {
+    color: #403d52;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.5s;
+    box-shadow: inset 6.5em 0 0 0 #78d0d3;
+}
+
+.con-one .col-sm-6 h1 {
+    font-size: 35px;
+    color: #403d52;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+.con-one .home-art {
+    height: 450px;
+    width: 600px;
+    margin-left: -15px;
+    margin-top: 30px;
+}
+
+
+/*---------------------------------------------*/
+
+
+/*-- List Page --*/
+
+.con-second {
+    background-color: #78d0d3;
+    height: 330px;
+    color: #403d52;
+}
+
+.con-second .col-sm-4 {
+    height: 200px;
+}
+
+.con-second .col-sm-4 img {
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+
+/*----------------------------------*/
+
+
+/*-- Artwork Page --*/
+
+.con-third {
+    height: 540px;
+    background-color: #f9f9f9;
+    color: #403d52;
+}
+
+.con-third .col-sm-5 h1 {
+    color: #403d52;
+}
+
+.con-third .col-sm-5 a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.con-third .col-sm-6 img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.con-third .col-sm-6 .list {
+    width: 60px;
+    height: 300px;
+    background-color: #3E6CB1;
+    display: inline-block;
+    margin-bottom: -150px;
+    margin-left: -4px;
+}
+
+.con-third .btn {
+    background-color: #3E6CB1;
+    color: #f9f9f9;
+    font-size: 25px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.con-third .btn:hover,
+.con-third .btn:focus {
+    animation: pulse 1s;
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+/*------------------------------------*/
+
+
+/*-- Category Page --*/
+
+.con-fourd {
+    color: #403d52;
+    height: 300px;
+}
+
+.con-fourd h5 {
+    margin-left: 143px;
+    font-weight: 900;
+}
+
+.con-fourd .row {
+    margin-left: 200px;
+}
+
+.con-fourd .col-sm-2 {
+    height: 150px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.con-fourd .col-sm-2 .icon {
+    height: 50px;
+    width: 50px;
+    background-color: #f9f9f9;
+    margin: 10px;
+    margin-left: -5px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.con-fourd .col-sm-2 img {
+    width: 50px;
+    height: 50px;
+}
+
+.con-fourd .col-sm-2 h4 {
+    font-weight: 900;
+}
+
+
+/*------------------------------------*/
+
+
+/*-- Contact Us Page --*/
+
+.con-fifth {
+    background-color: #f9f9f9;
+    color: #403d52;
+}
+
+.con-fifth .contact-us {
+    background-color: #403d52;
+}
+
+.con-fifth .col-sm-6 h1 {
+    color: #f9f9f9;
+    font-weight: 900;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.con-fifth .col-sm-10 {
+    border-radius: 20px;
+    background-color: #78d0d3;
+}
+
+.con-fifth .col-sm-3 img {
+    width: 80px;
+    height: 80px;
+}
+
+.con-fifth .col-sm-9 {
+    font-weight: 900;
+}
+
+
+/*------------------------------------*/
+
+
+/*-- About Us Page --*/
+
+.con-six {
+    background-color: #3E6CB1;
+    color: #f9f9f9;
+}
+
+.con-six .col-sm-3 {
+    margin-left: -20px;
+    background-color: #403d52;
+    color: #f9f9f9;
+}
+
+.con-six .col-sm-6 h1 {
+    color: #f9f9f9;
+}
+
+.con-six .col-sm-6 img {
+    border-radius: 20px;
+    width: 400px;
+}
+
+
+/*------------------------------------*/
+
+
+/*-- Footer Page --*/
+
+.con-seven {
+    background-color: #f9f9f9;
+    color: #403d52;
+}
+
+.con-seven .column img {
+    width: 150px;
+    height: 150px;
+}
+
+.con-seven img {
+    width: 50px;
+    height: 50px;
+}
+
+.con-seven .list-group {
+    color: #3E6CB1;
+}
+
+.mobile {
+    display: none;
+}
+
+
+/*------------------------------------*/
+
+
+/*-- Artwork Page */
+
+.artwork h5 {
+    color: #403d52;
+    font-weight: 900;
+}
+
+.artwork .col-sm-3 {
+    background-color: #403d52;
+    color: #f9f9f9;
+}
+
+.artwork .btn {
+    background-color: #78d0d3;
+    color: #f9f9f9;
+    font-size: 21px;
+    font-weight: 900;
+    border-radius: 15px;
+}
+
+.artwork .dropdown-menu {
+    background-color: #78d0d3;
+    border-radius: 15px;
+}
+
+.artwork .dropdown-item {
+    color: #f9f9f9;
+}
+
+.artwork .dropdown-item:hover {
+    background-color: #403d52;
+    color: #f9f9f9;
+    opacity: 0.2;
+}
+
+.artwork img {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+}
+
+.artwork .gallery-btn {
+    background-color: #3E6CB1;
+    color: #f9f9f9;
+    font-size: 25px;
+    display: block;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.artwork .gallery-btn:hover,
+.artwork .gallery-btn:focus {
+    animation: pulse 1s;
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+.artwork .gallery-btn a {
+    color: #f9f9f9;
+    font-size: 25px;
+}
+
+.artwork .gallery-btn a:hover {
+    text-decoration: none;
+}
+
+
+/*----------------------------------------------------------*/
+
+@media screen and (max-width: 776px) {}
