@@ -397,7 +397,6 @@ a:focus {
     border-radius: 20px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     margin: 20px;
-    transition: background-color .3s, opacity .5s, visibility .5s;
 }
 
 .artwork .gallery-btn {
@@ -434,4 +433,8 @@ a:focus {
 
 /*----------------------------------------------------------*/
 
-@media screen and (max-width: 776px) {}
+@media screen and (max-width: 776px) {
+    .desktop {
+        display: none;
+    }
+}
