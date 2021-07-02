@@ -87,6 +87,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.mobile {
+    display: none;
+}
+
 
 /*------------------------------------------------------------*/
 
@@ -349,10 +353,6 @@ a:focus {
     color: #3E6CB1;
 }
 
-.mobile {
-    display: none;
-}
-
 
 /*------------------------------------*/
 
@@ -437,4 +437,320 @@ a:focus {
     .desktop {
         display: none;
     }
+    .mobile {
+        display: block;
+        background-color: #f9f9f9;
+    }
+    /*-- Home Page --*/
+    .con-one {
+        height: auto;
+        background-color: #f9f9f9;
+        color: #403d52;
+    }
+    .con-one .home-logo {
+        width: 96px;
+        height: 80px;
+        margin: 0;
+        margin-left: -16px;
+        display: inline;
+    }
+    .con-one .navbar {
+        width: 80%;
+        margin-right: -14px;
+        float: right;
+        border-radius: 15px 0px 0px 15px;
+    }
+    .con-one .navbar-text {
+        color: #f9f9f9;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .con-one img {
+        width: 310px;
+    }
+    .con-one h5 {
+        color: #403d52;
+        font-weight: 900;
+    }
+    .con-one .navbar {
+        background-color: #403d52;
+        width: 80%;
+    }
+    .con-one .sidebar {
+        height: 40%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #3E6CB1;
+        border-radius: 0px 50px 50px 50px;
+        color: #403d52;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        transition: 0.5s;
+    }
+    .con-one .sidebar a {
+        padding: 8px 8px 8px 60px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #f9f9f9;
+        display: block;
+        transition: 0.3s;
+    }
+    .con-one .sidebar a:hover {
+        color: #403d52;
+    }
+    .con-one #main {
+        transition: margin-left .5s;
+    }
+    /*----------------------------------*/
+    /*-- Detail Page --*/
+    .con-second {
+        height: auto;
+    }
+    .con-second .col-sm-4 {
+        height: 200px;
+    }
+    .con-second .col img {
+        height: 78px;
+        margin-top: 10px;
+    }
+    .con-second .col h5 {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 900;
+    }
+    /*-----------------------------------*/
+    /*-- Artwork Page --*/
+    .con-third {
+        height: auto;
+        background-color: #f9f9f9;
+        color: #403d52;
+    }
+    .con-third .col h3 {
+        color: #403d52;
+    }
+    .con-third .col img {
+        width: 140px;
+        border-radius: 20px;
+    }
+    .con-third .btn {
+        background-color: #3E6CB1;
+        color: #f9f9f9;
+        font-size: 15px;
+        width: 90px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+    .con-third .btn a {
+        text-decoration: none;
+        color: #f9f9f9;
+    }
+    .con-third .btn:hover,
+    .con-third .btn:focus {
+        animation: pulse 1s;
+        cursor: pointer;
+        box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.2);
+        opacity: 0.8;
+        text-decoration: none;
+        color: #f9f9f9;
+    }
+    @keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+        }
+    }
+    /*------------------------------------*/
+    /*-- Category Page --*/
+    .con-fourd {
+        color: #403d52;
+        height: auto;
+    }
+    .con-fourd h5 {
+        margin-left: 0;
+        font-weight: 900;
+    }
+    .con-fourd .row {
+        margin-left: -15px;
+    }
+    .con-fourd .col {
+        height: 160px;
+        background-color: #78d0d3;
+        border-radius: 20px;
+        outline: none;
+    }
+    .con-fourd .col .icon {
+        height: 50px;
+        width: 50px;
+        background-color: #f9f9f9;
+        margin: 10px;
+        margin-left: -5px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+    }
+    .con-fourd .col img {
+        width: 50px;
+        height: 50px;
+    }
+    .con-fourd .col h4 {
+        font-weight: 900;
+        text-align: center;
+    }
+    .con-fourd .col p {
+        text-align: center;
+    }
+    /*------------------------------------*/
+    /*-- Contact Us Page --*/
+    .con-fifth {
+        background-color: #f9f9f9;
+        color: #403d52;
+    }
+    .con-fifth .col-5 img {
+        margin-left: -15px;
+        width: 150px;
+        height: 100px;
+    }
+    .con-fifth .col-7 {
+        height: 300px;
+    }
+    .con-fifth .col-7 h5 {
+        color: #f9f9f9;
+        font-weight: 900;
+    }
+    .con-fifth .col-12 {
+        height: 50px;
+        border-radius: 10px;
+        background-color: #78d0d3;
+        margin-top: 10px;
+    }
+    .con-fifth .col-3 img {
+        width: 50px;
+        height: 50px;
+        margin-left: -10px;
+    }
+    .con-fifth .col-9 h5 {
+        margin-top: 5px;
+        margin-left: 5px;
+        color: #403d52;
+    }
+    .con-fifth .col-9 p {
+        margin-left: 5px;
+        margin-top: -10px;
+    }
+    /*------------------------------------*/
+    /*-- About Page --*/
+    .con-six {
+        background-color: #3E6CB1;
+        color: #f9f9f9;
+        height: auto;
+    }
+    .con-six .col-4 {
+        margin-left: -20px;
+        background-color: #403d52;
+        color: #f9f9f9;
+    }
+    .con-six .col h1 {
+        color: #f9f9f9;
+    }
+    .con-six .col img {
+        border-radius: 20px;
+        width: 190px;
+    }
+    /*------------------------------------*/
+    /*-- Footer Page --*/
+    .con-seven {
+        background-color: #f9f9f9;
+        color: #403d52;
+    }
+    .con-seven .column img {
+        width: 150px;
+        height: 150px;
+    }
+    .con-seven img {
+        width: 50px;
+        height: 50px;
+    }
+    .con-seven .list-group {
+        color: #3E6CB1;
+    }
+    /*------------------------------------*/
+    /*-- Artwork Page */
+     ::-webkit-scrollbar {
+        width: 0px;
+        display: block;
+        background-color: #3E6CB1;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+    }
+     ::-webkit-scrollbar-thumb {
+        background: #403d52;
+        display: block;
+        border-radius: 3px;
+    }
+     ::-webkit-scrollbar-thumb:hover {
+        background-color: #78d0d3;
+    }
+    .artwork .con-one {
+        background-image: url('../dist/userbg.jpg');
+        background-size: cover;
+        height: 210px;
+        margin: 0;
+        display: block;
+        position: fixed;
+    }
+    .artwork p {
+        color: #f9f9f9;
+        display: block;
+        font-size: 20px;
+        font-weight: 900;
+        background-color: #403d52;
+        border-radius: 15px;
+    }
+    .artwork .col {
+        color: #f9f9f9;
+        width: 60%;
+        margin-top: 65px;
+    }
+    .artwork .con-sec {
+        background-color: #3E6CB1;
+        height: 550px;
+        margin: 0;
+        margin-top: 180px;
+        overflow-y: scroll;
+        border-radius: 30px;
+        position: fixed;
+    }
+    .con-sec h5 {
+        color: #f9f9f9;
+    }
+    .con-sec .dropdown {
+        margin-top: -30px;
+        margin-right: -20px;
+    }
+    .con-sec .dropdown-menu {
+        margin-right: -10px;
+        border-radius: 30px 0px 30px 30px;
+        background-color: #f9f9f9;
+    }
+    .con-sec .dropdown-item {
+        color: #3E6CB1;
+    }
+    .con-sec .btn {
+        background-color: #f9f9f9;
+        color: #3E6CB1;
+        border-radius: 30px 30px 0px 30px;
+    }
+    .con-sec .gallery {
+        width: 350px;
+        margin-right: 50px;
+        margin-left: -20px;
+    }
+    .con-sec .gallery img {
+        width: 100px;
+        margin: 5px;
+    }
+    /*---------------------------------------------------------*/
 }
