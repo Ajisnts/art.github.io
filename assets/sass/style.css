@@ -534,6 +534,7 @@ a:focus {
     }
     .con-third .col img {
         width: 140px;
+        border: 3px solid #3E6CB1;
         border-radius: 20px;
     }
     .con-third .btn {
@@ -591,8 +592,8 @@ a:focus {
         border-radius: 50%;
     }
     .con-fourd .col img {
-        width: 50px;
-        height: 50px;
+        width: 48px;
+        height: 48px;
     }
     .con-fourd .col h4 {
         font-weight: 900;
@@ -677,80 +678,83 @@ a:focus {
     }
     /*------------------------------------*/
     /*-- Artwork Page */
-     ::-webkit-scrollbar {
-        width: 0px;
-        display: block;
-        background-color: #3E6CB1;
-        border: none;
-        border-radius: 10px;
-        outline: none;
-    }
-     ::-webkit-scrollbar-thumb {
-        background: #403d52;
-        display: block;
-        border-radius: 3px;
-    }
-     ::-webkit-scrollbar-thumb:hover {
-        background-color: #78d0d3;
-    }
-    .artwork .con-one {
+    .artwork-bg {
         background-image: url('../dist/userbg.jpg');
-        background-size: cover;
-        height: 210px;
-        margin: 0;
-        display: block;
-        position: fixed;
+        background-repeat: repeat;
+        background-size: contain;
+    }
+    .artwork h5 {
+        color: #403d52;
+        font-weight: 900;
+    }
+    .artwork .col-sm-3 {
+        background-color: #403d52;
+        color: #f9f9f9;
+        width: 60%;
+        margin-top: 30px;
+        border-radius: 20px;
+    }
+    .artwork .btn {
+        background-color: #f9f9f9;
+        color: #3E6CB1;
+        font-size: 21px;
+        font-weight: 900;
+        border-radius: 30px 0px 0px 30px;
+    }
+    .artwork .dropdown-menu {
+        background-color: #f9f9f9;
+        border-radius: 30px 0px 30px 30px;
+    }
+    .artwork .dropdown-item {
+        color: #3E6CB1;
+    }
+    .artwork .dropdown-item:hover {
+        background-color: #403d52;
+        color: #f9f9f9;
+        opacity: 0.2;
+    }
+    .artwork img {
+        width: 100px;
+        border-radius: 20px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+        margin: 5px;
     }
     .artwork p {
         color: #f9f9f9;
-        display: block;
-        font-size: 20px;
-        font-weight: 900;
-        background-color: #403d52;
-        border-radius: 15px;
+        font-weight: bold;
     }
-    .artwork .col {
-        color: #f9f9f9;
-        width: 60%;
-        margin-top: 65px;
-    }
-    .artwork .con-sec {
+    .artwork .gallery {
+        margin-top: 90px;
+        margin-left: -15px;
+        width: 363px;
         background-color: #3E6CB1;
-        height: 550px;
-        margin: 0;
-        margin-top: 180px;
-        overflow-y: scroll;
-        border-radius: 30px;
-        position: fixed;
+        border-radius: 40px 40px 0px 40px;
     }
-    .con-sec h5 {
+    .artwork .gallery-btn {
+        background-color: #3E6CB1;
         color: #f9f9f9;
+        font-size: 25px;
+        display: block;
+        width: 150px;
+        border-radius: 20px;
     }
-    .con-sec .dropdown {
-        margin-top: -30px;
-        margin-right: -20px;
+    .artwork .gallery-btn:hover,
+    .artwork .gallery-btn:focus {
+        animation: pulse 1s;
+        box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.2);
+        opacity: 0.8;
     }
-    .con-sec .dropdown-menu {
-        margin-right: -10px;
-        border-radius: 30px 0px 30px 30px;
-        background-color: #f9f9f9;
+    @keyframes pulse {
+        0% {
+            box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+        }
     }
-    .con-sec .dropdown-item {
-        color: #3E6CB1;
+    .artwork .gallery-btn a {
+        color: #f9f9f9;
+        font-size: 25px;
     }
-    .con-sec .btn {
-        background-color: #f9f9f9;
-        color: #3E6CB1;
-        border-radius: 30px 30px 0px 30px;
-    }
-    .con-sec .gallery {
-        width: 350px;
-        margin-right: 50px;
-        margin-left: -20px;
-    }
-    .con-sec .gallery img {
-        width: 250px;
-        margin: 5px;
+    .artwork .gallery-btn a:hover {
+        text-decoration: none;
     }
     /*---------------------------------------------------------*/
 }
