@@ -434,9 +434,6 @@ a:focus {
 /*----------------------------------------------------------*/
 
 @media screen and (max-width: 776px) {
-    body {
-        overflow-x: auto;
-    }
     .desktop {
         display: none;
     }
