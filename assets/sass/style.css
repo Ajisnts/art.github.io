@@ -362,6 +362,7 @@ a:focus {
 .artwork h5 {
     color: #403d52;
     font-weight: 900;
+    float: left;
 }
 
 .artwork .col-sm-3 {
@@ -375,6 +376,7 @@ a:focus {
     font-size: 21px;
     font-weight: 900;
     border-radius: 15px;
+    margin-right: 50px;
 }
 
 .artwork .dropdown-menu {
@@ -477,7 +479,7 @@ a:focus {
         width: 80%;
     }
     .con-one .sidebar {
-        height: 40%;
+        height: 50%;
         width: 0;
         position: fixed;
         z-index: 1;
